@@ -1,0 +1,6 @@
+stage('Executar script aqui') {
+            steps {
+                echo 'baixe a calculadora aqui.'
+                sh 'sudo sh +x calculadora.sh'
+            }
+        }
